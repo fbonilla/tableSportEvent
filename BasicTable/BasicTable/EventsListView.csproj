@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{A598A3B8-AA48-47C4-855A-8D960552F6E7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>BasicTable</RootNamespace>
+    <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+    <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+    <AndroidResgenClass>Resource</AndroidResgenClass>
+    <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
+    <AndroidApplication>True</AndroidApplication>
+    <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
+    <AssemblyName>BasicTable</AssemblyName>
+    <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidLinkMode>None</AndroidLinkMode>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Mono.Android" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MainActivity.cs" />
+    <Compile Include="Resources\Resource.designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MyEventListViewAdapter.cs" />
+    <Compile Include="SportEventSeparator.cs" />
+    <Compile Include="EntrySportEvent.cs" />
+    <Compile Include="SportEvent.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Assets\AboutAssets.txt" />
+    <None Include="Properties\AndroidManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Main.axml" />
+    <AndroidResource Include="Resources\values\Strings.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\Icon.png" />
+    <AndroidResource Include="Resources\layout\ListEvents_row.xml" />
+    <AndroidResource Include="Resources\drawable\icon_american_football.png" />
+    <AndroidResource Include="Resources\drawable\icon_australian_rules.png" />
+    <AndroidResource Include="Resources\drawable\icon_bandy.png" />
+    <AndroidResource Include="Resources\drawable\icon_baseball.png" />
+    <AndroidResource Include="Resources\drawable\icon_basketball.png" />
+    <AndroidResource Include="Resources\drawable\icon_beach_soccer.png" />
+    <AndroidResource Include="Resources\drawable\icon_boxing.png" />
+    <AndroidResource Include="Resources\drawable\icon_chess.png" />
+    <AndroidResource Include="Resources\drawable\icon_cricket.png" />
+    <AndroidResource Include="Resources\drawable\icon_curling.png" />
+    <AndroidResource Include="Resources\drawable\icon_cycling.png" />
+    <AndroidResource Include="Resources\drawable\icon_darts.png" />
+    <AndroidResource Include="Resources\drawable\icon_daughts.png" />
+    <AndroidResource Include="Resources\drawable\icon_floorball.png" />
+    <AndroidResource Include="Resources\drawable\icon_gaelic_football.png" />
+    <AndroidResource Include="Resources\drawable\icon_golf.png" />
+    <AndroidResource Include="Resources\drawable\icon_handball.png" />
+    <AndroidResource Include="Resources\drawable\icon_icehockey.png" />
+    <AndroidResource Include="Resources\drawable\icon_motor.png" />
+    <AndroidResource Include="Resources\drawable\icon_motorbike.png" />
+    <AndroidResource Include="Resources\drawable\icon_snooker.png" />
+    <AndroidResource Include="Resources\drawable\icon_soccer.png" />
+    <AndroidResource Include="Resources\drawable\icon_table_tennis.png" />
+    <AndroidResource Include="Resources\drawable\icon_tennis.png" />
+    <AndroidResource Include="Resources\drawable\icon_trotting.png" />
+    <AndroidResource Include="Resources\drawable\icon_ultimate_fighting.png" />
+    <AndroidResource Include="Resources\drawable\icon_volleyball.png" />
+    <AndroidResource Include="Resources\values\Colors.xml" />
+    <AndroidResource Include="Resources\layout\ListEventsSeparator.xml" />
+    <AndroidResource Include="Resources\drawable\customBorder.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Resources\drawable\" />
+  </ItemGroup>
+</Project>

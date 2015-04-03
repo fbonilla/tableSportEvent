@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:paddingLeft="10dp"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp"
+    android:background="@android:color/white"
+    android:weightSum="100">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="15"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/thumbnail">
+        <ImageView
+            android:contentDescription="@string/app_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/icon_icehockey"
+            android:id="@+id/iconSport" />
+    </LinearLayout>
+    <TextView
+        android:text="Canadiens @ Flyers"
+        android:layout_width="0dp"
+        android:layout_weight="65"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/blue_event_label"
+        android:textSize="16sp"
+        android:id="@+id/textEventTitle"
+        android:gravity="left" />
+    <TextView
+        android:text="7:30 PM"
+        android:layout_width="0dp"
+        android:layout_weight="20"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:id="@+id/textEventTime"
+        android:gravity="right" />
+</LinearLayout>
