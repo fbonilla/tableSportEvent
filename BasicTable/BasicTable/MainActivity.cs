@@ -36,7 +36,7 @@ namespace BasicTable
 
 			MyEventListViewAdapter adapter = new MyEventListViewAdapter (this, mItems);
 
-			//ArrayAdapter adapter = new ArrayAdapter<string> (this, Android.Resource.Layout.SimpleListItem1, mItems);
+			//ArrayAdapter adapter = new ArrayAdapter<string> (this, Android.Resource.Layout.SimpleListItem1, mItems); -- Test Commit
 
 			mListView.Adapter = adapter;
 		}
