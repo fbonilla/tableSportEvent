@@ -1,1 +1,1 @@
-/Users/Fredy/Projects/BasicTable/BasicTable/bin/Debug/BasicTable.dll
+/Users/Fredy/Documents/GitHub Repo/tableSportEvent/BasicTable/BasicTable/bin/Debug/BasicTable.dll
