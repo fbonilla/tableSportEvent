@@ -96,6 +96,7 @@
     <AndroidResource Include="Resources\values\Colors.xml" />
     <AndroidResource Include="Resources\layout\ListEventsSeparator.xml" />
     <AndroidResource Include="Resources\drawable\customBorder.xml" />
+    <AndroidResource Include="Resources\drawable\monthSelectorBorder.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>

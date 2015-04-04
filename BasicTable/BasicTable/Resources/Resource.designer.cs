@@ -153,6 +153,9 @@ namespace BasicTable
 			// aapt resource value: 0x7f02001c
 			public const int icon_volleyball = 2130837532;
 			
+			// aapt resource value: 0x7f02001d
+			public const int monthSelectorBorder = 2130837533;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -166,23 +169,35 @@ namespace BasicTable
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f060009
+			public const int buttonNextMonth = 2131099657;
+			
+			// aapt resource value: 0x7f060007
+			public const int buttonPreviousMonth = 2131099655;
+			
 			// aapt resource value: 0x7f060001
 			public const int iconSport = 2131099649;
 			
 			// aapt resource value: 0x7f060005
-			public const int layoutMonth = 2131099653;
+			public const int layoutMonthEvent = 2131099653;
+			
+			// aapt resource value: 0x7f060006
+			public const int linearMonthSelector = 2131099654;
 			
 			// aapt resource value: 0x7f060004
 			public const int listItemSection = 2131099652;
 			
-			// aapt resource value: 0x7f060006
-			public const int listViewEvents = 2131099654;
+			// aapt resource value: 0x7f06000a
+			public const int listViewEvents = 2131099658;
 			
 			// aapt resource value: 0x7f060003
 			public const int textEventTime = 2131099651;
 			
 			// aapt resource value: 0x7f060002
 			public const int textEventTitle = 2131099650;
+			
+			// aapt resource value: 0x7f060008
+			public const int textMonth = 2131099656;
 			
 			// aapt resource value: 0x7f060000
 			public const int thumbnail = 2131099648;
