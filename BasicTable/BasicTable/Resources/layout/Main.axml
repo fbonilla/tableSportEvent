@@ -58,7 +58,8 @@
                 android:background="@null"
                 android:clickable="true"
                 android:layout_marginRight="40dp"
-                android:id="@+id/buttonNextMonth" />
+                android:id="@+id/buttonNextMonth"
+                android:duplicateParentState="false" />
         </LinearLayout>
         <ListView
             android:layout_width="match_parent"

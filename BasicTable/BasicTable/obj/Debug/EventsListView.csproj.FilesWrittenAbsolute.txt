@@ -95,3 +95,6 @@
 /Users/Fredy/Documents/GitHub Repo/tableSportEvent/BasicTable/BasicTable/obj/Debug/BasicTable.dll
 /Users/Fredy/Documents/GitHub Repo/tableSportEvent/BasicTable/BasicTable/obj/Debug/BasicTable.dll.mdb
 /Users/Fredy/Documents/GitHub Repo/tableSportEvent/BasicTable/BasicTable/obj/Debug/res/drawable/monthselectorborder.xml
+/Users/Fredy/Documents/GitHub Repo/tableSportEvent/BasicTable/BasicTable/obj/Debug/res/anim/left_swipe.xml
+/Users/Fredy/Documents/GitHub Repo/tableSportEvent/BasicTable/BasicTable/obj/Debug/res/anim/right_swipe.xml
+/Users/Fredy/Documents/GitHub Repo/tableSportEvent/BasicTable/BasicTable/obj/Debug/res/anim/back_swipe.xml

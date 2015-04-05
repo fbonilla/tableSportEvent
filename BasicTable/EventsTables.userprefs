@@ -1,12 +1,12 @@
 ﻿<Properties StartupItem="BasicTable/EventsListView.csproj" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.0c177ece032908e9" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="BasicTable/MainActivity.cs">
     <Files>
-      <File FileName="BasicTable/MainActivity.cs" Line="20" Column="51" />
+      <File FileName="BasicTable/MainActivity.cs" Line="74" Column="5" />
       <File FileName="BasicTable/SportEvent.cs" Line="1" Column="1" />
-      <File FileName="BasicTable/Resources/values/Colors.xml" Line="5" Column="30" />
-      <File FileName="BasicTable/Resources/drawable/customBorder.xml" Line="3" Column="36" />
-      <File FileName="BasicTable/Resources/drawable/monthSelectorBorder.xml" Line="4" Column="29" />
+      <File FileName="BasicTable/Resources/values/Colors.xml" Line="1" Column="1" />
+      <File FileName="BasicTable/Resources/drawable/customBorder.xml" Line="1" Column="1" />
+      <File FileName="BasicTable/Resources/drawable/monthSelectorBorder.xml" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

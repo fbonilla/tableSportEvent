@@ -28,6 +28,28 @@ namespace BasicTable
 		{
 		}
 		
+		public partial class Animation
+		{
+			
+			// aapt resource value: 0x7f040000
+			public const int back_swipe = 2130968576;
+			
+			// aapt resource value: 0x7f040001
+			public const int left_swipe = 2130968577;
+			
+			// aapt resource value: 0x7f040002
+			public const int right_swipe = 2130968578;
+			
+			static Animation()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Animation()
+			{
+			}
+		}
+		
 		public partial class Attribute
 		{
 			
@@ -44,14 +66,14 @@ namespace BasicTable
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f040000
-			public const int blue_event_label = 2130968576;
+			// aapt resource value: 0x7f050000
+			public const int blue_event_label = 2131034112;
 			
-			// aapt resource value: 0x7f040002
-			public const int date_color = 2130968578;
+			// aapt resource value: 0x7f050002
+			public const int date_color = 2131034114;
 			
-			// aapt resource value: 0x7f040001
-			public const int separator_background = 2130968577;
+			// aapt resource value: 0x7f050001
+			public const int separator_background = 2131034113;
 			
 			static Color()
 			{
@@ -169,38 +191,38 @@ namespace BasicTable
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f060009
-			public const int buttonNextMonth = 2131099657;
+			// aapt resource value: 0x7f070009
+			public const int buttonNextMonth = 2131165193;
 			
-			// aapt resource value: 0x7f060007
-			public const int buttonPreviousMonth = 2131099655;
+			// aapt resource value: 0x7f070007
+			public const int buttonPreviousMonth = 2131165191;
 			
-			// aapt resource value: 0x7f060001
-			public const int iconSport = 2131099649;
+			// aapt resource value: 0x7f070001
+			public const int iconSport = 2131165185;
 			
-			// aapt resource value: 0x7f060005
-			public const int layoutMonthEvent = 2131099653;
+			// aapt resource value: 0x7f070005
+			public const int layoutMonthEvent = 2131165189;
 			
-			// aapt resource value: 0x7f060006
-			public const int linearMonthSelector = 2131099654;
+			// aapt resource value: 0x7f070006
+			public const int linearMonthSelector = 2131165190;
 			
-			// aapt resource value: 0x7f060004
-			public const int listItemSection = 2131099652;
+			// aapt resource value: 0x7f070004
+			public const int listItemSection = 2131165188;
 			
-			// aapt resource value: 0x7f06000a
-			public const int listViewEvents = 2131099658;
+			// aapt resource value: 0x7f07000a
+			public const int listViewEvents = 2131165194;
 			
-			// aapt resource value: 0x7f060003
-			public const int textEventTime = 2131099651;
+			// aapt resource value: 0x7f070003
+			public const int textEventTime = 2131165187;
 			
-			// aapt resource value: 0x7f060002
-			public const int textEventTitle = 2131099650;
+			// aapt resource value: 0x7f070002
+			public const int textEventTitle = 2131165186;
 			
-			// aapt resource value: 0x7f060008
-			public const int textMonth = 2131099656;
+			// aapt resource value: 0x7f070008
+			public const int textMonth = 2131165192;
 			
-			// aapt resource value: 0x7f060000
-			public const int thumbnail = 2131099648;
+			// aapt resource value: 0x7f070000
+			public const int thumbnail = 2131165184;
 			
 			static Id()
 			{
@@ -237,11 +259,11 @@ namespace BasicTable
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f050001
-			public const int app_name = 2131034113;
+			// aapt resource value: 0x7f060001
+			public const int app_name = 2131099649;
 			
-			// aapt resource value: 0x7f050000
-			public const int hello = 2131034112;
+			// aapt resource value: 0x7f060000
+			public const int hello = 2131099648;
 			
 			static String()
 			{

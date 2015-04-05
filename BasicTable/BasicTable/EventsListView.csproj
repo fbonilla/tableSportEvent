@@ -97,9 +97,13 @@
     <AndroidResource Include="Resources\layout\ListEventsSeparator.xml" />
     <AndroidResource Include="Resources\drawable\customBorder.xml" />
     <AndroidResource Include="Resources\drawable\monthSelectorBorder.xml" />
+    <AndroidResource Include="Resources\anim\left_swipe.xml" />
+    <AndroidResource Include="Resources\anim\right_swipe.xml" />
+    <AndroidResource Include="Resources\anim\back_swipe.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
+    <Folder Include="Resources\anim\" />
   </ItemGroup>
 </Project>
